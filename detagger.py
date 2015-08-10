@@ -9,7 +9,6 @@ regex = re.compile(r'<.*?>')
 
 
 for line in r:
-    print(regex.sub(' ', line))
     w.write(regex.sub(' ', line))
 
 w.close()
